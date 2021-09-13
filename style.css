@@ -1,0 +1,10 @@
+.Rojo {
+    background-color: teal;
+    color: white;
+  }
+
+#LoremText{
+    font-style:italic; 
+  }
+
+/* h1 {color:  red; /* ---> Propiedad: Valor; */ 

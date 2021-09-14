@@ -496,7 +496,8 @@ por decirlo de algun mmodo-->
         <h3> IMAGENES </h3>
         <!-- HTML images are defined with the <img> tag.
             The source file (src), alternative text (alt), width, and height are provided as attributes, Example:-->
-        <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+            <img src="https://picsum.photos/id/237/200/300" alt="Imagen random" title="Imagen">
+            <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
             <p>Images can improve the design and the appearance of a web page.</p>
                 <h6>HTML Image</h6>
                 <img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
@@ -701,31 +702,169 @@ por decirlo de algun mmodo-->
         </table>
 
             <h3>HTML Table Tags</h3>
-                <p>Tag	Description
-                table	Defines a table
-                th	Defines a header cell in a table
-                tr	Defines a row in a table
-                td	Defines a cell in a table
-                caption	Defines a table caption
-                colgroup	Specifies a group of one or more columns in a table for formatting
-                col	Specifies column properties for each column within a <colgroup> element
-                thead	Groups the header content in a table
-                tbody	Groups the body content in a table
+                <p>Tag	Description <br>
+                table	Defines a table <br>
+                th	Defines a header cell in a table <br>
+                tr	Defines a row in a table<br>
+                td	Defines a cell in a table<br>
+                caption	Defines a table caption<br>
+                colgroup	Specifies a group of one or more columns in a table for formatting<br>
+                col	Specifies column properties for each column within a colgroup> element<br>
+                thead	Groups the header content in a table<br>
+                tbody	Groups the body content in a table<br>
                 tfoot	Groups the footer content in a table</p>
             <h3>SIZES</h3>
                 <P>HTML tables can have different sizes for each column, row or the entire table.
                     Use the style attribute with the width or height properties to specify the size of a table, row or column.
                 </P>
-
-
     </section>
 
+    <section>
+        <h2>HTML Lists</h2>
+        <p>HTML lists allow web developers to group a set of related items in lists.</p>
+            <h3>Unordered HTML List</h3>
+            <ul>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ul>
+            <h3>Ordered HTML List</h3>
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+              </ol>
+            <h3>HTML Description Lists</h3>
+            <dl>
+                <dt>Coffee</dt>
+                <dd>- black hot drink</dd>
+                <dt>Milk</dt>
+                <dd>- white cold drink</dd>
+              </dl>
+    </section>
+    <section>
+        <h2>HTML Block and Inline Elements</h2>
+            <h3>Block-level Elements</h3>
+                p <br>
+                address<br>
+                article<br>
+                aside<br>
+                blockquote<br>
+                canvas<br>
+                dd<br>
+                div<br>
+                dl<br>
+                dt<br>
+                fieldset<br>
+                figcaption<br>
+                figure<br>
+                footer<br>
+                form<br>
+                h1<br>
+                h6<br>
+                header<br>
+                hr<br>
+                li<br>
+                main<br>
+                nav<br>
+                noscript<br>
+                ol<br>
+                p<br>
+                pre<br>
+                section<br>
+                table<br>
+                tfoot<br>
+                ul<br>
+                video<br>
+            <h3>Inline Elements</h3>
+                a<br>
+                abbr<br>
+                acronym<br>
+                b<br>
+                bdo<br>
+                big<br>
+                br<br>
+                button<br>
+                cite<br>
+                code<br>
+                dfn<br>
+                em<br>
+                i<br>
+                img<br>
+                input<br>
+                kbd<br>
+                label<br>
+                map<br>
+                object<br>
+                output<br>
+                q<br>
+                samp<br>
+                script<br>
+                select<br>
+                small<br>
+                span<br>
+                strong<br>
+                sub<br>
+                sup<br>
+                textarea<br>
+                time<br>
+                tt<br>
+                var<br>
+            <h3>The div Element</h3>
+            <p>The div element is often used as a container for other HTML elements. It has no required attributes, but style, class and id are common. When used together with CSS, the div element can be used to style blocks of content:</p>
+            <h3>The span Element</h3>
+            <p>The span element is an inline container used to mark up a part of a text, or a part of a document. The span>element has no required attributes, but style, class and id are common. When used together with CSS, the span element can be used to style parts of the text</p>
+        <h2>HTML class Attribute</h2>
+            <p>The HTML class attribute is used to specify a class for an HTML element. Multiple HTML elements can share the same class.</p>
+            <p>The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name. <br>
+            In the following example we have three div elements with a class attribute with the value of "city". All of the three div elements will be styled equally according to the .city style definition in the head section. For example:</p>   
+            <div class="city">
+                <h2>London</h2>
+                <p>London is the capital of England.</p>
+                </div> 
+                
+                <div class="city">
+                <h2>Paris</h2>
+                <p>Paris is the capital of France.</p>
+                </div>
+                
+                <div class="city">
+                <h2>Tokyo</h2>
+                <p>Tokyo is the capital of Japan.</p>
+                </div>
+            <p>To create a class; write a period (.) character, followed by a class name. Then, define the CSS properties within curly braces {}:</p>
+                <h4>Multiple Classes</h4>
+                <p>HTML elements can belong to more than one class. <br>
+                    To define multiple classes, separate the class names with a space. The element will be styled according to all the classes specified. <br>
+                    In the following example, the first <h2> element belongs to both the city class and also to the main class, and will get the CSS styles from both of the classes: </p>
 
-
-
-
-
-
+        <h2>HTML id Attribute</h2>
+            <p>The HTML id attribute is used to specify a unique id for an HTML element. <br>
+                You cannot have more than one element with the same id in an HTML document.</p>
+                <p>The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document. <br>
+                    The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id. <br>
+                    The syntax for id is: write a hash character (#), followed by an id name. Then, define the CSS properties within curly braces {}. <br>
+                    In the following example we have an h1 element that points to the id name "myHeader". </p>
+                    <h3>HTML Bookmarks with ID and Links</h3>
+                    <p>HTML bookmarks are used to allow readers to jump to specific parts of a webpage. 
+                        Bookmarks can be useful if your page is very long. 
+                        To use a bookmark, you must first create it, and then add a link to it. 
+                        Then, when the link is clicked, the page will scroll to the location with the bookmark.</p>
+                        <!--<h2 id="C4">Chapter 4</h2>-->
+    </section>
+    <section>
+        <h2>HTML Iframes</h2>
+        <p>An HTML iframe is used to display a web page within a web page. <br>
+            The HTML iframe tag specifies an inline frame. An inline frame is used to embed another document within the current HTML document. <br>
+            It is a good practice to always include a title attribute for the iframe. This is used by screen readers to read out what the content of the iframe is.
+        </p>
+        <p>The HTML iframe tag specifies an inline frame. 
+            The src attribute defines the URL of the page to embed. 
+            Always include a title attribute (for screen readers). 
+            The height and width attributes specifies the size of the iframe. 
+            Use border:none; to remove the border around the iframe</p>
+    </section>
+    <section>
         <h3>HTML File Paths</h3>
             <p>A file path describes the location of a file in a web site's folder structure.
                 File paths are used when linking to external files, like:
@@ -736,53 +875,68 @@ por decirlo de algun mmodo-->
                 <img src="/images/picture.jpg">	The "picture.jpg" file is located in the images folder at the root of the current web
                 <img src="../picture.jpg">	The "picture.jpg" file is located in the folder one level up from the current folder
             </p>
+    </section>
+    <section>
+        <h2>HTML Layout Elements</h2>
+        <p>HTML has several semantic elements that define the different parts of a web page:</p>
+        <ul>
+            <li>header: Defines a header for a document or a section </li>
+            <li>nav: Defines a set of navigation links</li>
+            <li>section: Defines a section in a document</li>
+            <li>article: Defines an independent, self-contained content</li>
+            <li>aside: Defines content aside from the content (like a sidebar)</li>
+            <li>footer: Defines a footer for a document or a section</li>
+            <li>details: Defines additional details that the user can open and close on demand</li>
+            <li>summary:Defines a heading for the details element </li>
+        </ul>
             
-            
-            </p>
+        </ul>
+    </section>
 
+    <section>
 
+        <h2>FORMS</h2>
+            <h4>Para juntar Información, datos, etc </h4>
+                <!-- Juntar Información, Datos, etc -->
+                <h3>This is a way to do Forms</h3><br>
 
+                <form>
+                    <label for="">Name</label>
+                    <input type="text"> <br>
+                    <label for="">Last Name</label>
+                    <input type="text"><br>
+                    <input type="submit">
+                    <input type="reset"> <br>
+                </form>
+                    <!-- Otra opcion para indicar el formulario es usando placeholder-->
+                    <h1>This is another one</h1><br>
+                <form action="database.php">
+                    <input type="email" placeholder="e-Mail"> <br>
+                    <input type="Password" placeholder=" Password"> <br>
 
-    <h1>FORMS</h1>
-    <h4>Para juntar Información, datos, etc </h4>
-    <h1 style="text-align: center;">FORMS</h1>
-    <!-- Juntar Información, Datos, etc -->
-    <H1>This is a way to do Forms</H1><br>
+                    <input type="submit">
+                    <input type="reset"> <br>
+                </form> <br>
+                <hr>
 
-    <form>
-        <label for="">Name</label>
-        <input type="text"> <br>
-        <label for="">Last Name</label>
-        <input type="text"><br>
-        <input type="submit">
-        <input type="reset"> <br>
-    </form>
-        <!-- Otra opcion para indicar el formulario es usando placeholder-->
-        <h1>This is another one</h1><br>
-    <form action="database.php">
-        <input type="email" placeholder="e-Mail"> <br>
-        <input type="Password" placeholder=" Password"> <br>
-
-        <input type="submit">
-        <input type="reset"> <br>
-    </form> <br>
-    <hr>
-
-    <form> 
-        <!-- Si quiero que aparezca precargada la información es así (aunque sigue quedando
-            disponible para editar sin embargo no se borra cuando actualizo )-->
-        <input type="text" placeholder="Name" value="ANDREA">
-        <!-- Si quiero que no se pueda editar nada es asi -->
-        <input type="text" placeholder="Name" value="ANDREA" disabled> <br>
-        <!-- otros tipos de formularios-->
-        <h1>Plus</h1><br>
-        
-        <Label>Edad</Label>
-        <input type="number"><br>
-        <input type="date">
-        <input type="submit">
-        <input type="reset"> <br>
-    </form>
+                <form> 
+                    <!-- Si quiero que aparezca precargada la información es así (aunque sigue quedando
+                        disponible para editar sin embargo no se borra cuando actualizo )-->
+                    <input type="text" placeholder="Name" value="ANDREA">
+                    <!-- Si quiero que no se pueda editar nada es asi -->
+                    <input type="text" placeholder="Name" value="ANDREA" disabled> <br>
+                    <!-- otros tipos de formularios-->
+                    <h1>Plus</h1><br>
+                    
+                    <Label>Edad</Label>
+                    <input type="number"><br>
+                    <input type="date">
+                    <input type="submit">
+                    <input type="reset"> <br>
+                </form>
+                    
+    </section>
+    
 
     <!--Los iframes los utilizamos para "adjuntar" videos, mapas, contenidos multimedia, en nuestra propia pagina sin que tenga que ir a la dirección original, lo puede ver ahi enseguida.-->
 
